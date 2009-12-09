@@ -20,7 +20,7 @@
         <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="20,247,0,0" Name="lblHost" VerticalAlignment="Top" Width="150">Project Host :</Label>
         <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="20,277,0,0" Name="lblHostURL" VerticalAlignment="Top" Width="150">Project URL :</Label>
         <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="20,307,0,0" Name="lblLicense" VerticalAlignment="Top" Width="150">Project License :</Label>
-        <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,67,12,0" Name="lblDev" VerticalAlignment="Top">Nasser Hajloo, Elham Mohammad Nezhad</Label>
+        <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,67,12,0" Name="lblDev" VerticalAlignment="Top">Nasser Hajloo</Label>
         <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,97,12,0" Name="lblLeader" VerticalAlignment="Top">Nasser Hajloo</Label>
         <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,127,12,0" Name="lbleMail" VerticalAlignment="Top">n.Hajloo@gmail.com</Label>
         <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,157,12,0" Name="lblWeBlog" VerticalAlignment="Top">
