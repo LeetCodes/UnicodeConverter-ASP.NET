@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UNICODE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Item
+    Code="0601"
+    Name="ARABIC SIGN SANAH"
+    Type="U"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="0602"
+    Name="ARABIC FOOTNOTE MARKER"
+    Type="U"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="0603"
+    Name="ARABIC SIGN SAFHA"
+    Type="U"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="0608"
+    Name="ARABIC RAY"
+    Type="U"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="060B"
+    Name="AFGHANI SIGN"
+    Type="U"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="0621"
+    Name="HAMZA"
+    Type="U"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="0622"
+    Name="MADDA ON ALEF"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0623"
+    Name="HAMZA ON ALEF"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0624"
+    Name="HAMZA ON WAW"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="0625"
+    Name="HAMZA UNDER ALEF"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0626"
+    Name="HAMZA ON YEH"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="0627"
+    Name="ALEF"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0628"
+    Name="BEH"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0629"
+    Name="TEH MARBUTA"
+    Type="R"
+    Category="TEH MARBUTA"
+  />
+  <Item
+    Code="062A"
+    Name="TEH"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="062B"
+    Name="THEH"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="062C"
+    Name="JEEM"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="062D"
+    Name="HAH"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="062E"
+    Name="KHAH"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="062F"
+    Name="DAL"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="0630"
+    Name="THAL"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="0631"
+    Name="REH"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0632"
+    Name="ZAIN"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0633"
+    Name="SEEN"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="0634"
+    Name="SHEEN"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="0635"
+    Name="SAD"
+    Type="D"
+    Category="SAD"
+  />
+  <Item
+    Code="0636"
+    Name="DAD"
+    Type="D"
+    Category="SAD"
+  />
+  <Item
+    Code="0637"
+    Name="TAH"
+    Type="D"
+    Category="TAH"
+  />
+  <Item
+    Code="0638"
+    Name="ZAH"
+    Type="D"
+    Category="TAH"
+  />
+  <Item
+    Code="0639"
+    Name="AIN"
+    Type="D"
+    Category="AIN"
+  />
+  <Item
+    Code="063A"
+    Name="GHAIN"
+    Type="D"
+    Category="AIN"
+  />
+  <Item
+    Code="063B"
+    Name="KEHEH WITH 2 DOTS ABOVE"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="063C"
+    Name="KEHEH WITH 3 DOTS BELOW"
+    Type="D"
+    Category="GAF "
+  />
+  <Item
+    Code="063D"
+    Name="FARSI YEH WITH INVERTED V"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="063E"
+    Name="FARSI YEH WITH 2 DOTS ABOVE"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="063F"
+    Name="FARSI YEH WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="0640"
+    Name="TATWEEL"
+    Type="C"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="0641"
+    Name="FEH"
+    Type="D"
+    Category="FEH"
+  />
+  <Item
+    Code="0642"
+    Name="QAF"
+    Type="D"
+    Category="QAF"
+  />
+  <Item
+    Code="0643"
+    Name="KAF"
+    Type="D"
+    Category="KAF"
+  />
+  <Item
+    Code="0644"
+    Name="LAM"
+    Type="D"
+    Category="LAM"
+  />
+  <Item
+    Code="0645"
+    Name="MEEM"
+    Type="D"
+    Category="MEEM"
+  />
+  <Item
+    Code="0646"
+    Name="NOON"
+    Type="D"
+    Category="NOON"
+  />
+  <Item
+    Code="0647"
+    Name="HEH"
+    Type="D"
+    Category="HEH"
+  />
+  <Item
+    Code="0648"
+    Name="WAW"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="0649"
+    Name="ALEF MAKSURA"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="064A"
+    Name="YEH"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="066E"
+    Name="DOTLESS BEH"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="066F"
+    Name="DOTLESS QAF"
+    Type="D"
+    Category="QAF"
+  />
+  <Item
+    Code="0671"
+    Name="HAMZAT WASL ON ALEF"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0672"
+    Name="WAVY HAMZA ON ALEF"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0673"
+    Name="WAVY HAMZA UNDER ALEF"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0674"
+    Name="HIGH HAMZA"
+    Type="U"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="0675"
+    Name="HIGH HAMZA ALEF"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0676"
+    Name="HIGH HAMZA WAW"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="0677"
+    Name="HIGH HAMZA WAW WITH DAMMA"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="0678"
+    Name="HIGH HAMZA YEH"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="0679"
+    Name="TEH WITH SMALL TAH"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="067A"
+    Name="TEH WITH 2 DOTS VERTICAL ABOVE"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="067B"
+    Name="BEH WITH 2 DOTS VERTICAL BELOW"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="067C"
+    Name="TEH WITH RING"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="067D"
+    Name="TEH WITH 3 DOTS ABOVE DOWNWARD"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="067E"
+    Name="TEH WITH 3 DOTS BELOW"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="067F"
+    Name="TEH WITH 4 DOTS ABOVE"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0680"
+    Name="BEH WITH 4 DOTS BELOW"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0681"
+    Name="HAMZA ON HAH"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0682"
+    Name="HAH WITH 2 DOTS VERTICAL ABOVE"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0683"
+    Name="HAH WITH MIDDLE 2 DOTS"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0684"
+    Name="HAH WITH MIDDLE 2 DOTS VERTICAL"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0685"
+    Name="HAH WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0686"
+    Name="HAH WITH MIDDLE 3 DOTS DOWNWARD"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0687"
+    Name="HAH WITH MIDDLE 4 DOTS"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0688"
+    Name="DAL WITH SMALL TAH"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="0689"
+    Name="DAL WITH RING"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="068A"
+    Name="DAL WITH DOT BELOW"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="068B"
+    Name="DAL WITH DOT BELOW AND SMALL TAH"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="068C"
+    Name="DAL WITH 2 DOTS ABOVE"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="068D"
+    Name="DAL WITH 2 DOTS BELOW"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="068E"
+    Name="DAL WITH 3 DOTS ABOVE"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="068F"
+    Name="DAL WITH 3 DOTS ABOVE DOWNWARD"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="0690"
+    Name="DAL WITH 4 DOTS ABOVE"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="0691"
+    Name="REH WITH SMALL TAH"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0692"
+    Name="REH WITH SMALL V"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0693"
+    Name="REH WITH RING"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0694"
+    Name="REH WITH DOT BELOW"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0695"
+    Name="REH WITH SMALL V BELOW"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0696"
+    Name="REH WITH DOT BELOW AND DOT ABOVE"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0697"
+    Name="REH WITH 2 DOTS ABOVE"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0698"
+    Name="REH WITH 3 DOTS ABOVE"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0699"
+    Name="REH WITH 4 DOTS ABOVE"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="069A"
+    Name="SEEN WITH DOT BELOW AND DOT ABOVE"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="069B"
+    Name="SEEN WITH 3 DOTS BELOW"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="069C"
+    Name="SEEN WITH 3 DOTS BELOW AND 3 DOTS ABOVE"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="069D"
+    Name="SAD WITH 2 DOTS BELOW"
+    Type="D"
+    Category="SAD"
+  />
+  <Item
+    Code="069E"
+    Name="SAD WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="SAD"
+  />
+  <Item
+    Code="069F"
+    Name="TAH WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="TAH"
+  />
+  <Item
+    Code="06A0"
+    Name="AIN WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="AIN"
+  />
+  <Item
+    Code="06A1"
+    Name="DOTLESS FEH"
+    Type="D"
+    Category="FEH"
+  />
+  <Item
+    Code="06A2"
+    Name="FEH WITH DOT MOVED BELOW"
+    Type="D"
+    Category="FEH"
+  />
+  <Item
+    Code="06A3"
+    Name="FEH WITH DOT BELOW"
+    Type="D"
+    Category="FEH"
+  />
+  <Item
+    Code="06A4"
+    Name="FEH WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="FEH"
+  />
+  <Item
+    Code="06A5"
+    Name="FEH WITH 3 DOTS BELOW"
+    Type="D"
+    Category="FEH"
+  />
+  <Item
+    Code="06A6"
+    Name="FEH WITH 4 DOTS ABOVE"
+    Type="D"
+    Category="FEH"
+  />
+  <Item
+    Code="06A7"
+    Name="QAF WITH DOT ABOVE"
+    Type="D"
+    Category="QAF"
+  />
+  <Item
+    Code="06A8"
+    Name="QAF WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="QAF"
+  />
+  <Item
+    Code="06A9"
+    Name="KEHEH"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="06AA"
+    Name="SWASH KAF"
+    Type="D"
+    Category="SWASH KAF"
+  />
+  <Item
+    Code="06AB"
+    Name="KAF WITH RING"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="06AC"
+    Name="KAF WITH DOT ABOVE"
+    Type="D"
+    Category="KAF"
+  />
+  <Item
+    Code="06AD"
+    Name="KAF WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="KAF"
+  />
+  <Item
+    Code="06AE"
+    Name="KAF WITH 3 DOTS BELOW"
+    Type="D"
+    Category="KAF"
+  />
+  <Item
+    Code="06AF"
+    Name="GAF"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="06B0"
+    Name="GAF WITH RING"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="06B1"
+    Name="GAF WITH 2 DOTS ABOVE"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="06B2"
+    Name="GAF WITH 2 DOTS BELOW"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="06B3"
+    Name="GAF WITH 2 DOTS VERTICAL BELOW"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="06B4"
+    Name="GAF WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="06B5"
+    Name="LAM WITH SMALL V"
+    Type="D"
+    Category="LAM"
+  />
+  <Item
+    Code="06B6"
+    Name="LAM WITH DOT ABOVE"
+    Type="D"
+    Category="LAM"
+  />
+  <Item
+    Code="06B7"
+    Name="LAM WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="LAM"
+  />
+  <Item
+    Code="06B8"
+    Name="LAM WITH 3 DOTS BELOW"
+    Type="D"
+    Category="LAM"
+  />
+  <Item
+    Code="06B9"
+    Name="NOON WITH DOT BELOW"
+    Type="D"
+    Category="NOON"
+  />
+  <Item
+    Code="06BA"
+    Name="DOTLESS NOON"
+    Type="D"
+    Category="NOON"
+  />
+  <Item
+    Code="06BB"
+    Name="DOTLESS NOON WITH SMALL TAH"
+    Type="D"
+    Category="NOON"
+  />
+  <Item
+    Code="06BC"
+    Name="NOON WITH RING"
+    Type="D"
+    Category="NOON"
+  />
+  <Item
+    Code="06BD"
+    Name="NOON WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="NOON"
+  />
+  <Item
+    Code="06BE"
+    Name="KNOTTED HEH"
+    Type="D"
+    Category="KNOTTED HEH"
+  />
+  <Item
+    Code="06BF"
+    Name="HAH WITH MIDDLE 3 DOTS DOWNWARD AND DOT ABOVE"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="06C0"
+    Name="HAMZA ON HEH"
+    Type="R"
+    Category="TEH MARBUTA"
+  />
+  <Item
+    Code="06C1"
+    Name="HEH GOAL"
+    Type="D"
+    Category="HEH GOAL"
+  />
+  <Item
+    Code="06C2"
+    Name="HAMZA ON HEH GOAL"
+    Type="D"
+    Category="HEH GOAL"
+  />
+  <Item
+    Code="06C3"
+    Name="TEH MARBUTA GOAL"
+    Type="R"
+    Category="HAMZA ON HEH GOAL"
+  />
+  <Item
+    Code="06C4"
+    Name="WAW WITH RING"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="06C5"
+    Name="WAW WITH BAR"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="06C6"
+    Name="WAW WITH SMALL V"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="06C7"
+    Name="WAW WITH DAMMA"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="06C8"
+    Name="WAW WITH ALEF ABOVE"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="06C9"
+    Name="WAW WITH INVERTED SMALL V"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="06CA"
+    Name="WAW WITH 2 DOTS ABOVE"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="06CB"
+    Name="WAW WITH 3 DOTS ABOVE"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="06CC"
+    Name="DOTLESS YEH"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="06CD"
+    Name="YEH WITH TAIL"
+    Type="R"
+    Category="YEH WITH TAIL"
+  />
+  <Item
+    Code="06CE"
+    Name="YEH WITH SMALL V"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="06CF"
+    Name="WAW WITH DOT ABOVE"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="06D0"
+    Name="YEH WITH 2 DOTS VERTICAL BELOW"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="06D1"
+    Name="YEH WITH 3 DOTS BELOW"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="06D2"
+    Name="YEH BARREE"
+    Type="R"
+    Category="YEH BARREE"
+  />
+  <Item
+    Code="06D3"
+    Name="HAMZA ON YEH BARREE"
+    Type="R"
+    Category="YEH BARREE"
+  />
+  <Item
+    Code="06D5"
+    Name="AE"
+    Type="R"
+    Category="TEH MARBUTA"
+  />
+  <Item
+    Code="06DD"
+    Name="ARABIC END OF AYAH"
+    Type="U"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="06EE"
+    Name="DAL WITH INVERTED V"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="06EF"
+    Name="REH WITH INVERTED V"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="06FA"
+    Name="SEEN WITH DOT BELOW AND 3 DOTS ABOVE"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="06FB"
+    Name="DAD WITH DOT BELOW"
+    Type="D"
+    Category="SAD"
+  />
+  <Item
+    Code="06FC"
+    Name="GHAIN WITH DOT BELOW"
+    Type="D"
+    Category="AIN"
+  />
+  <Item
+    Code="06FF"
+    Name="HEH WITH INVERTED V"
+    Type="D"
+    Category="KNOTTED HEH"
+  />
+  <Item
+    Code="0710"
+    Name="ALAPH"
+    Type="R"
+    Category="ALAPH"
+  />
+  <Item
+    Code="0712"
+    Name="BETH"
+    Type="D"
+    Category="BETH"
+  />
+  <Item
+    Code="0713"
+    Name="GAMAL"
+    Type="D"
+    Category="GAMAL"
+  />
+  <Item
+    Code="0714"
+    Name="GAMAL GARSHUNI"
+    Type="D"
+    Category="GAMAL"
+  />
+  <Item
+    Code="0715"
+    Name="DALATH"
+    Type="R"
+    Category="DALATH RISH"
+  />
+  <Item
+    Code="0716"
+    Name="DOTLESS DALATH RISH"
+    Type="R"
+    Category="DALATH RISH"
+  />
+  <Item
+    Code="0717"
+    Name="HE"
+    Type="R"
+    Category="HE"
+  />
+  <Item
+    Code="0718"
+    Name="WAW"
+    Type="R"
+    Category="SYRIAC WAW"
+  />
+  <Item
+    Code="0719"
+    Name="ZAIN"
+    Type="R"
+    Category="ZAIN"
+  />
+  <Item
+    Code="071A"
+    Name="HETH"
+    Type="D"
+    Category="HETH"
+  />
+  <Item
+    Code="071B"
+    Name="TETH"
+    Type="D"
+    Category="TETH"
+  />
+  <Item
+    Code="071C"
+    Name="TETH GARSHUNI"
+    Type="D"
+    Category="TETH"
+  />
+  <Item
+    Code="071D"
+    Name="YUDH"
+    Type="D"
+    Category="YUDH"
+  />
+  <Item
+    Code="071E"
+    Name="YUDH HE"
+    Type="R"
+    Category="YUDH HE"
+  />
+  <Item
+    Code="071F"
+    Name="KAPH"
+    Type="D"
+    Category="KAPH"
+  />
+  <Item
+    Code="0720"
+    Name="LAMADH"
+    Type="D"
+    Category="LAMADH"
+  />
+  <Item
+    Code="0721"
+    Name="MIM"
+    Type="D"
+    Category="MIM"
+  />
+  <Item
+    Code="0722"
+    Name="NUN"
+    Type="D"
+    Category="NUN"
+  />
+  <Item
+    Code="0723"
+    Name="SEMKATH"
+    Type="D"
+    Category="SEMKATH"
+  />
+  <Item
+    Code="0724"
+    Name="FINAL SEMKATH"
+    Type="D"
+    Category="FINAL SEMKATH"
+  />
+  <Item
+    Code="0725"
+    Name="E"
+    Type="D"
+    Category="E"
+  />
+  <Item
+    Code="0726"
+    Name="PE"
+    Type="D"
+    Category="PE"
+  />
+  <Item
+    Code="0727"
+    Name="REVERSED PE"
+    Type="D"
+    Category="REVERSED PE"
+  />
+  <Item
+    Code="0728"
+    Name="SADHE"
+    Type="R"
+    Category="SADHE"
+  />
+  <Item
+    Code="0729"
+    Name="QAPH"
+    Type="D"
+    Category="QAPH"
+  />
+  <Item
+    Code="072A"
+    Name="RISH"
+    Type="R"
+    Category="DALATH RISH"
+  />
+  <Item
+    Code="072B"
+    Name="SHIN"
+    Type="D"
+    Category="SHIN"
+  />
+  <Item
+    Code="072C"
+    Name="TAW"
+    Type="R"
+    Category="TAW"
+  />
+  <Item
+    Code="072D"
+    Name="PERSIAN BHETH"
+    Type="D"
+    Category="BETH"
+  />
+  <Item
+    Code="072E"
+    Name="PERSIAN GHAMAL"
+    Type="D"
+    Category="GAMAL"
+  />
+  <Item
+    Code="072F"
+    Name="PERSIAN DHALATH"
+    Type="R"
+    Category="DALATH RISH"
+  />
+  <Item
+    Code="074D"
+    Name="SOGDIAN ZHAIN"
+    Type="R"
+    Category="ZHAIN"
+  />
+  <Item
+    Code="074E"
+    Name="SOGDIAN KHAPH"
+    Type="D"
+    Category="KHAPH"
+  />
+  <Item
+    Code="074F"
+    Name="SOGDIAN FE"
+    Type="D"
+    Category="FE"
+  />
+  <Item
+    Code="0750"
+    Name="BEH WITH 3 DOTS HORIZONTALLY BELOW"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0751"
+    Name="BEH WITH DOT BELOW AND 3 DOTS ABOVE"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0752"
+    Name="BEH WITH 3 DOTS POINTING UPWARDS BELOW"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0753"
+    Name="BEH WITH 3 DOTS POINTING UPWARDS BELOW AND 2 DOTS ABOVE"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0754"
+    Name="BEH WITH 2 DOTS BELOW AND DOT ABOVE"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0755"
+    Name="BEH WITH INVERTED SMALL V BELOW"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0756"
+    Name="BEH WITH SMALL V"
+    Type="D"
+    Category="BEH"
+  />
+  <Item
+    Code="0757"
+    Name="HAH WITH 2 DOTS ABOVE"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0758"
+    Name="HAH WITH 3 DOTS POINTING UPWARDS BELOW"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0759"
+    Name="DAL WITH 2 DOTS VERTICALLY BELOW AND SMALL TAH"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="075A"
+    Name="DAL WITH INVERTED SMALL V BELOW"
+    Type="R"
+    Category="DAL"
+  />
+  <Item
+    Code="075B"
+    Name="REH WITH STROKE"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="075C"
+    Name="SEEN WITH 4 DOTS ABOVE"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="075D"
+    Name="AIN WITH 2 DOTS ABOVE"
+    Type="D"
+    Category="AIN"
+  />
+  <Item
+    Code="075E"
+    Name="AIN WITH 3 DOTS POINTING DOWNWARDS ABOVE"
+    Type="D"
+    Category="AIN"
+  />
+  <Item
+    Code="075F"
+    Name="AIN WITH 2 DOTS VERTICALLY ABOVE"
+    Type="D"
+    Category="AIN"
+  />
+  <Item
+    Code="0760"
+    Name="FEH WITH 2 DOTS BELOW"
+    Type="D"
+    Category="FEH"
+  />
+  <Item
+    Code="0761"
+    Name="FEH WITH 3 DOTS POINTING UPWARDS BELOW"
+    Type="D"
+    Category="FEH"
+  />
+  <Item
+    Code="0762"
+    Name="KEHEH WITH DOT ABOVE"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="0763"
+    Name="KEHEH WITH 3 DOTS ABOVE"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="0764"
+    Name="KEHEH WITH 3 DOTS POINTING UPWARDS BELOW"
+    Type="D"
+    Category="GAF"
+  />
+  <Item
+    Code="0765"
+    Name="MEEM WITH DOT ABOVE"
+    Type="D"
+    Category="MEEM"
+  />
+  <Item
+    Code="0766"
+    Name="MEEM WITH DOT BELOW"
+    Type="D"
+    Category="MEEM"
+  />
+  <Item
+    Code="0767"
+    Name="NOON WITH 2 DOTS BELOW"
+    Type="D"
+    Category="NOON"
+  />
+  <Item
+    Code="0768"
+    Name="NOON WITH SMALL TAH"
+    Type="D"
+    Category="NOON"
+  />
+  <Item
+    Code="0769"
+    Name="NOON WITH SMALL V"
+    Type="D"
+    Category="NOON"
+  />
+  <Item
+    Code="076A"
+    Name="LAM WITH BAR"
+    Type="D"
+    Category="LAM"
+  />
+  <Item
+    Code="076B"
+    Name="REH WITH 2 DOTS VERTICALLY ABOVE"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="076C"
+    Name="REH WITH HAMZA ABOVE"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="076D"
+    Name="SEEN WITH 2 DOTS VERTICALLY ABOVE"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="076E"
+    Name="HAH WITH SMALL TAH BELOW"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="076F"
+    Name="HAH WITH SMALL TAH AND 2 DOTS"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0770"
+    Name="SEEN WITH SMALL TAH AND 2 DOTS"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="0771"
+    Name="REH WITH SMALL TAH AND 2 DOTS"
+    Type="R"
+    Category="REH"
+  />
+  <Item
+    Code="0772"
+    Name="HAH WITH SMALL TAH ABOVE"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="0773"
+    Name="ALEF WITH DIGIT TWO ABOVE"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0774"
+    Name="ALEF WITH DIGIT THREE ABOVE"
+    Type="R"
+    Category="ALEF"
+  />
+  <Item
+    Code="0775"
+    Name="DOTLESS YEH WITH DIGIT TWO ABOVE"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="0776"
+    Name="DOTLESS YEH WITH DIGIT THREE ABOVE"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="0777"
+    Name="DOTLESS YEH WITH DIGIT FOUR BELOW"
+    Type="D"
+    Category="YEH"
+  />
+  <Item
+    Code="0778"
+    Name="WAW WITH DIGIT TWO ABOVE"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="0779"
+    Name="WAW WITH DIGIT THREE ABOVE"
+    Type="R"
+    Category="WAW"
+  />
+  <Item
+    Code="077A"
+    Name="YEH BARREE WITH DIGIT TWO ABOVE"
+    Type="D"
+    Category="BURUSHASKI YEH BARREE"
+  />
+  <Item
+    Code="077B"
+    Name="YEH BARREE WITH DIGIT THREE ABOVE"
+    Type="D"
+    Category="BURUSHASKI YEH BARREE"
+  />
+  <Item
+    Code="077C"
+    Name="HAH WITH DIGIT FOUR BELOW"
+    Type="D"
+    Category="HAH"
+  />
+  <Item
+    Code="077D"
+    Name="SEEN WITH DIGIT FOUR ABOVE"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="077E"
+    Name="SEEN WITH INVERTED V"
+    Type="D"
+    Category="SEEN"
+  />
+  <Item
+    Code="077F"
+    Name="KAF WITH 2 DOTS ABOVE"
+    Type="D"
+    Category="KAF"
+  />
+  <Item
+    Code="07CA"
+    Name="NKO A"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07CB"
+    Name="NKO EE"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07CC"
+    Name="NKO I"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07CD"
+    Name="NKO E"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07CE"
+    Name="NKO U"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07CF"
+    Name="NKO OO"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D0"
+    Name="NKO O"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D1"
+    Name="NKO DAGBASINNA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D2"
+    Name="NKO N"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D3"
+    Name="NKO BA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D4"
+    Name="NKO PA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D5"
+    Name="NKO TA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D6"
+    Name="NKO JA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D7"
+    Name="NKO CHA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D8"
+    Name="NKO DA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07D9"
+    Name="NKO RA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07DA"
+    Name="NKO RRA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07DB"
+    Name="NKO SA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07DC"
+    Name="NKO GBA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07DD"
+    Name="NKO FA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07DE"
+    Name="NKO KA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07DF"
+    Name="NKO LA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E0"
+    Name="NKO NA WOLOSO"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E1"
+    Name="NKO MA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E2"
+    Name="NKO NYA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E3"
+    Name="NKO NA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E4"
+    Name="NKO HA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E5"
+    Name="NKO WA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E6"
+    Name="NKO YA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E7"
+    Name="NKO NYA WOLOSO"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E8"
+    Name="NKO JONA JA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07E9"
+    Name="NKO JONA CHA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07EA"
+    Name="NKO JONA RA"
+    Type="D"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="07FA"
+    Name="NKO LAJANYALAN"
+    Type="C"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="200D"
+    Name="ZERO WIDTH JOINER"
+    Type="C"
+    Category="No_Joining_Group"
+  />
+  <Item
+    Code="200C"
+    Name="ZERO WIDTH NON-JOINER"
+    Type="U"
+    Category="No_Joining_Group"
+  />
+</UNICODE>

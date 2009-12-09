@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Hajloo.FOSS.UnicodeConverter.Windows.UI.Forms.Modules.ConvertFromUnicode"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="440" Width="430" Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="69*" />
+            <RowDefinition Height="371*" />
+        </Grid.RowDefinitions>
+        <Label Margin="35,21,99,0" Name="lblTitle" Foreground="#2b99ee" FontWeight="Bold" FontSize="20pt">Convert From Unicode</Label>
+        <TextBox Height="23" Margin="88,154,99,0" Name="txtInput" VerticalAlignment="Top" Panel.ZIndex="1" Grid.Row="1" />
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,153,18,0" Name="btnDecode" VerticalAlignment="Top" Width="75" Panel.ZIndex="1" Grid.Row="1" Click="btnDecode_Click">Decode</Button>
+        <Rectangle Grid.Row="1" Margin="14,139,10,25" Name="group" Stroke="#FFDFE8EF" ClipToBounds="False" Fill="#FFDFE8EF" RadiusX="10" RadiusY="10" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeDashCap="Round" />
+        <TextBox Grid.Row="1" Margin="22,183,18,33" Name="txtResult" FontFamily="Arial Unicode MS" />
+        <Label Grid.Row="1" Margin="22,149,0,0" Name="lblWords" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="70">Hex Code :</Label>
+        <TextBlock Grid.Row="1" Margin="12,8,10,0" Name="blkDescription" Height="120" VerticalAlignment="Top" TextWrapping="WrapWithOverflow" TextAlignment="Justify">
+            To decode a byte or a bytecode stream back to Original unicode scheme, put the code or bytecode into the Bytes box and then press the Decode button.
+            note that you should put the correct byte code into the Bytes box, each unicode character have four digit, for example 066C represent for 'ی' and if you put just 66C you may face another character.
+            so in the string that you put into the Bytes box, check the codes. for more info about each character you can use from Unicode Information Tab.
+        </TextBlock>
+    </Grid>
+</UserControl>

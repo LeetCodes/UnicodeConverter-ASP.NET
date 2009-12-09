@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Hajloo.FOSS.UnicodeConverter.Windows.UI.Forms.Modules.ConvertToUnicode"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="440" Width="430" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="69*" />
+            <RowDefinition Height="371*" />
+        </Grid.RowDefinitions>
+        <Label Margin="35,21,130,0" Name="lblTitle" Foreground="#2b99ee" FontWeight="Bold" FontSize="20pt">Convert To Unicode</Label>
+        <TextBox Height="23" Margin="88,154,99,0" Name="txtInput" VerticalAlignment="Top" Panel.ZIndex="1" Grid.Row="1" />
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,153,18,0" Name="btnConvert" VerticalAlignment="Top" Width="75" Panel.ZIndex="1" Grid.Row="1" Click="btnConvert_Click">Convert</Button>
+        <Rectangle Grid.Row="1" Margin="14,139,10,25" Name="group" Stroke="#FFDFE8EF" ClipToBounds="False" Fill="#FFDFE8EF" RadiusX="10" RadiusY="10" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeDashCap="Round" />
+        <TextBox Grid.Row="1" Margin="22,183,18,33" Name="txtResult" />
+        <Label Grid.Row="1" Margin="33,149,348,194" Name="lblWords">Words :</Label>
+        <TextBlock Grid.Row="1" Margin="12,8,10,0" Name="blkDescription" Height="120" VerticalAlignment="Top" TextWrapping="WrapWithOverflow" TextAlignment="Justify">
+            To convert a character, word, Scentense or a paragraph enter put your text within the Words box and then press Convert Button. the Unicode per character code, will display in the result box.
+            note that what you see and the result may be different, it is a commonly event. for resolving this issue you can select an exact part of generated result code, and then put it in the Convert From Unicode Section, then compare the unicode Character Code, and Your special Character and the character that application has generated.
+        </TextBlock>
+    </Grid>
+</UserControl>

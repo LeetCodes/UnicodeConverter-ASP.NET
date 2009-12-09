@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="Hajloo.FOSS.UnicodeConverter.Windows.UI.Forms.Modules.UnicodeInformation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="440" Width="430" Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="69*" />
+            <RowDefinition Height="371*" />
+        </Grid.RowDefinitions>
+        <Label Margin="35,21,99,0" Name="lblTitle" Foreground="#2b99ee" FontWeight="Bold" FontSize="20pt">Unicode Information</Label>
+        <TextBox Height="23" Margin="88,15,192,0" Name="txtInput" VerticalAlignment="Top" Panel.ZIndex="1" Grid.Row="1" KeyDown="txtInput_KeyDown" GotFocus="txtInput_GotFocus" />
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,14.48,111,0" Name="btnGetInformation" VerticalAlignment="Top" Width="75" Panel.ZIndex="1" Grid.Row="1" Click="btnGetInformation_Click">Information</Button>
+        <Rectangle Grid.Row="1" Margin="14,6,10,25" Name="group" Stroke="#FFDFE8EF" ClipToBounds="False" Fill="#FFDFE8EF" RadiusX="10" RadiusY="10" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeDashCap="Round" />
+        
+        <Label Grid.Row="1" Margin="33,10,0,0" Name="lblWords" Height="28" HorizontalAlignment="Left" VerticalAlignment="Top" Width="49">Char :</Label>
+        <Button Grid.Row="1" Height="23" Margin="0,15,18,0" Name="btnAddToWord" VerticalAlignment="Top" HorizontalAlignment="Right" Width="87" Click="btnAddToWord_Click">Add To Word</Button>
+        
+        <Label HorizontalAlignment="Left" Margin="35,60,0,0" Name="lblShape" Width="49" Height="28" Grid.Row="1" VerticalAlignment="Top">Shape :</Label>
+        <Label Grid.Row="1" Height="63" HorizontalAlignment="Left" Margin="88,41,0,0" Name="lblGlyph" VerticalAlignment="Top" Width="59" FontFamily="Arial Unicode MS" FontSize="30" FontWeight="Bold"></Label>
+        
+        <Label Margin="141,60,0,0" Name="lblName" Height="28" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="51">Name :</Label>
+        <Label Margin="189,60,17,0" Name="lblUnicodeName" Height="28" Grid.Row="1" VerticalAlignment="Top"></Label>
+        
+        <Label HorizontalAlignment="Left" Margin="39,94,0,0" Name="lblCode" Width="47" Height="28" Grid.Row="1" VerticalAlignment="Top">Code :</Label>
+        <TextBox Grid.Row="1" Margin="92,99,234,249" Name="txtUnicodeCode" />
+        
+        <Label HorizontalAlignment="Right" Margin="0,94,127,0" Name="lblDecimal" Width="59" Height="28" VerticalAlignment="Top" Grid.Row="1">Decimal :</Label>
+        <TextBox Margin="309,99,17,249" Name="txtDecimalCode" Grid.Row="1" />
+
+        <Label Margin="42,130,348,0" Name="lblTypeName" Height="28" Grid.Row="1" VerticalAlignment="Top">Type :</Label>
+        <Label Grid.Row="1" HorizontalAlignment="Left" Margin="88,125,0,0" Name="lblType" VerticalAlignment="Top" Width="59" FontFamily="Arial Unicode MS" FontSize="20" FontWeight="Bold"></Label>
+
+        <Label Margin="141,130,0,0" Name="lblCategoryName" Height="28" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="64">Category :</Label>
+        <Label Margin="205,130,17,0" Name="lblCategory" Height="28" Grid.Row="1" VerticalAlignment="Top"></Label>
+
+        <Label HorizontalAlignment="Left" Margin="22,160,0,183" Name="lblResultTitle" Width="174" Grid.Row="1" FontWeight="Bold">Unicode Code and Final Text</Label>
+        <TextBox Grid.Row="1" Margin="23,184,17,112" Name="txtResultUnicode" />
+        <TextBox Margin="23,0,17,34" Name="txtResultText" Grid.Row="1" Height="75" VerticalAlignment="Bottom" />
+        <Button Grid.Row="1" Margin="153,99,234,249" Name="btnGetHexInfo" Click="btnGetHexInfo_Click">Info</Button>
+        <Button Margin="369,99,18,249" Name="btnGetDecimalInfo" Grid.Row="1" Click="btnGetDecimalInfo_Click">Info</Button>
+    </Grid>
+</UserControl>
