@@ -29,7 +29,7 @@
             </Hyperlink>
         </Label>
         <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,187,12,0" Name="lblVer" VerticalAlignment="Top">1.0</Label>
-        <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,217,12,0" Name="lblPublishDate" VerticalAlignment="Top">12-08-2009</Label>
+        <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,217,12,0" Name="lblPublishDate" VerticalAlignment="Top">12-09-2009</Label>
         <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,247,12,0" Name="lblCodeplex" VerticalAlignment="Top">Codeplex</Label>
         <Label Grid.Row="1" Height="28" HorizontalContentAlignment="Left" Margin="176,277,12,0" Name="lblCodeplexURI" VerticalAlignment="Top">
             <Hyperlink NavigateUri="http://Unicode.Codeplex.com/">
