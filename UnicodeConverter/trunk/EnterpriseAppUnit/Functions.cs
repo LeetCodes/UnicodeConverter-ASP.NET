@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Globalization;
 using System.Xml;
+using System.Reflection;
 
 namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
 {
@@ -67,8 +68,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Unicode.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Unicode.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             reader.Read();
             reader.ReadStartElement();
@@ -97,8 +99,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Unicode.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Unicode.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             reader.Read();
             reader.ReadStartElement();
@@ -127,8 +130,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Unicode.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Unicode.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             reader.Read();
             reader.ReadStartElement();
@@ -155,8 +159,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Standards.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Standards.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             while (reader.Read())
             {
@@ -180,8 +185,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Standards.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Standards.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             while (reader.Read())
             {
@@ -208,8 +214,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Standards.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Standards.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             while (reader.Read())
             {
@@ -236,8 +243,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Standards.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Standards.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             while (reader.Read())
             {
@@ -250,6 +258,11 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             return string.Empty;
         }//end
 
+        /// <summary>
+        /// Get Project License of standard keyboard layout of a country
+        /// </summary>
+        /// <param name="country">Country</param>
+        /// <returns>Project License of standard keyboard layout</returns>
         public static string GetLicense(string country)
         {
             XmlDocument xml = new XmlDocument();
@@ -259,8 +272,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Standards.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Standards.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             while (reader.Read())
             {
@@ -273,6 +287,11 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             return string.Empty;
         }//end
 
+        /// <summary>
+        /// Get Referer of standard keyboard layout of a country
+        /// </summary>
+        /// <param name="country">Country</param>
+        /// <returns>Referer Name</returns>
         public static string GetReferer(string country)
         {
             XmlDocument xml = new XmlDocument();
@@ -282,8 +301,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Standards.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Standards.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             while (reader.Read())
             {
@@ -296,6 +316,11 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             return string.Empty;
         }//end
 
+        /// <summary>
+        /// Get Referer Mail of standard keyboard layout of a country
+        /// </summary>
+        /// <param name="country">Country</param>
+        /// <returns>Referer Mail</returns>
         public static string GetRefererMail(string country)
         {
             XmlDocument xml = new XmlDocument();
@@ -305,8 +330,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Standards.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Standards.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             while (reader.Read())
             {
@@ -333,8 +359,9 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
-            XmlTextReader txtReader = new XmlTextReader("Standards.xml");
-            XmlReader reader = XmlReader.Create(txtReader, settings);
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Standards.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             while (reader.Read())
             {
