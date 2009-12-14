@@ -69,7 +69,7 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
             System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
-            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Unicode.xml");
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.ucd.all.flat.xml");
             XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             reader.Read();
@@ -78,8 +78,8 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             {
                 if (reader.IsEmptyElement)
                 {
-                    if (GetHexCode(character) == reader.GetAttribute("Code"))
-                        return reader.GetAttribute("Name");
+                    if (GetHexCode(character) == reader.GetAttribute("cp"))
+                        return reader.GetAttribute("na");
                 }
             }
             return string.Empty;
@@ -100,7 +100,7 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
             System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
-            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Unicode.xml");
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.ucd.all.flat.xml");
             XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             reader.Read();
@@ -109,8 +109,8 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             {
                 if (reader.IsEmptyElement)
                 {
-                    if (GetHexCode(character) == reader.GetAttribute("Code"))
-                        return reader.GetAttribute("Type");
+                    if (GetHexCode(character) == reader.GetAttribute("cp"))
+                        return reader.GetAttribute("jt");
                 }
             }
             return string.Empty;
@@ -131,7 +131,39 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             settings.IgnoreComments = true;
             settings.ConformanceLevel = ConformanceLevel.Auto;
             System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
-            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.Unicode.xml");
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.ucd.all.flat.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
+
+            reader.Read();
+            reader.ReadStartElement();
+            string categoryCode = string.Empty;
+            while (reader.Read())
+            {
+                if (reader.IsEmptyElement)
+                {
+                    if (GetHexCode(character) == reader.GetAttribute("cp"))
+                        return reader.GetAttribute("jg");
+                }
+            }
+            return string.Empty;
+        }//end
+
+        /// <summary>
+        /// Get Valid Unicode Page Category of a character
+        /// </summary>
+        /// <param name="character">Character</param>
+        /// <returns>Character Page Category like Latin, Arab, ...</returns>
+        public static string GetUnicodePage(char character)
+        {
+            XmlDocument xml = new XmlDocument();
+            XmlReaderSettings settings = new XmlReaderSettings();
+            settings.ConformanceLevel = ConformanceLevel.Auto;
+            settings.ValidationType = ValidationType.Schema;
+            settings.IgnoreWhitespace = true;
+            settings.IgnoreComments = true;
+            settings.ConformanceLevel = ConformanceLevel.Auto;
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.ucd.all.flat.xml");
             XmlReader reader = XmlReader.Create(xmlStream, settings);
 
             reader.Read();
@@ -140,8 +172,39 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
             {
                 if (reader.IsEmptyElement)
                 {
-                    if (GetHexCode(character) == reader.GetAttribute("Code"))
-                        return reader.GetAttribute("Category");
+                    if (GetHexCode(character) == reader.GetAttribute("cp"))
+                        return reader.GetAttribute("sc");
+                }
+            }
+            return string.Empty;
+        }//end
+
+        /// <summary>
+        /// indicate that a character is Bidirectional or not
+        /// </summary>
+        /// <param name="character">Character</param>
+        /// <returns>N / Y</returns>
+        public static string GetBiDI(char character)
+        {
+            XmlDocument xml = new XmlDocument();
+            XmlReaderSettings settings = new XmlReaderSettings();
+            settings.ConformanceLevel = ConformanceLevel.Auto;
+            settings.ValidationType = ValidationType.Schema;
+            settings.IgnoreWhitespace = true;
+            settings.IgnoreComments = true;
+            settings.ConformanceLevel = ConformanceLevel.Auto;
+            System.Reflection.Assembly asm = Assembly.GetExecutingAssembly();
+            System.IO.Stream xmlStream = asm.GetManifestResourceStream("Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit.ucd.all.flat.xml");
+            XmlReader reader = XmlReader.Create(xmlStream, settings);
+
+            reader.Read();
+            reader.ReadStartElement();
+            while (reader.Read())
+            {
+                if (reader.IsEmptyElement)
+                {
+                    if (GetHexCode(character) == reader.GetAttribute("cp"))
+                        return reader.GetAttribute("Bidi_C");
                 }
             }
             return string.Empty;
