@@ -27,16 +27,20 @@
         <Label HorizontalAlignment="Right" Margin="0,94,127,0" Name="lblDecimal" Width="59" Height="28" VerticalAlignment="Top" Grid.Row="1">Decimal :</Label>
         <TextBox Margin="309,99,17,249" Name="txtDecimalCode" Grid.Row="1" />
 
-        <Label Margin="42,130,348,0" Name="lblTypeName" Height="28" Grid.Row="1" VerticalAlignment="Top">Type :</Label>
-        <Label Grid.Row="1" HorizontalAlignment="Left" Margin="88,125,0,0" Name="lblType" VerticalAlignment="Top" Width="59" FontFamily="Arial Unicode MS" FontSize="20" FontWeight="Bold"></Label>
+        <Label Margin="42,130,0,0" Name="lblTypeName" Height="28" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="40">Type :</Label>
+        <Label Grid.Row="1" HorizontalAlignment="Left" Margin="83,125,0,0" Name="lblType" VerticalAlignment="Top" Width="59" FontFamily="Arial Unicode MS" FontSize="20" FontWeight="Bold" Height="42"></Label>
 
         <Label Margin="141,130,0,0" Name="lblCategoryName" Height="28" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="64">Category :</Label>
         <Label Margin="205,130,17,0" Name="lblCategory" Height="28" Grid.Row="1" VerticalAlignment="Top"></Label>
 
-        <Label HorizontalAlignment="Left" Margin="22,160,0,183" Name="lblResultTitle" Width="174" Grid.Row="1" FontWeight="Bold">Unicode Code and Final Text</Label>
-        <TextBox Grid.Row="1" Margin="23,184,17,112" Name="txtResultUnicode" />
-        <TextBox Margin="23,0,17,34" Name="txtResultText" Grid.Row="1" Height="75" VerticalAlignment="Bottom" />
+        <Label HorizontalAlignment="Left" Margin="22,0,0,151" Name="lblResultTitle" Width="174" Grid.Row="1" FontWeight="Bold" Height="28" VerticalAlignment="Bottom">Unicode Code and Final Text</Label>
+        <TextBox Grid.Row="1" Margin="23,0,17,96" Height="60" Name="txtResultUnicode" VerticalAlignment="Bottom" />
+        <TextBox Margin="23,0,17,34" Name="txtResultText" Grid.Row="1" Height="60" VerticalAlignment="Bottom" />
         <Button Grid.Row="1" Margin="153,99,234,249" Name="btnGetHexInfo" Click="btnGetHexInfo_Click">Info</Button>
         <Button Margin="369,99,18,249" Name="btnGetDecimalInfo" Grid.Row="1" Click="btnGetDecimalInfo_Click">Info</Button>
+        <Label HorizontalAlignment="Left" Margin="33,164,0,179" Name="lblCodePage" Width="49" Grid.Row="1">Range :</Label>
+        <Label FontFamily="Arial Unicode MS" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Margin="83,159,0,170" Name="lblUnicodePage" Width="59" Grid.Row="1" />
+        <Label Margin="155,164,224,179" Name="lblBiDirectional" Grid.Row="1">Is BIDI ?</Label>
+        <Label Margin="205,164,17,179" Name="lblIsBidirectional" Grid.Row="1" />
     </Grid>
 </UserControl>

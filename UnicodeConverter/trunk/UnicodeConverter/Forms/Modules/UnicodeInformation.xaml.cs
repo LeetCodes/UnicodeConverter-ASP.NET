@@ -41,6 +41,8 @@ namespace Hajloo.FOSS.UnicodeConverter.Windows.UI.Forms.Modules
                 txtUnicodeCode.Text = Functions.GetHexCode(input);
                 lblType.Content = Functions.GetType(input);
                 lblCategory.Content = Functions.GetCategory(input);
+                lblIsBidirectional.Content = Functions.GetBiDI(input);
+                lblUnicodePage.Content = Functions.GetUnicodePage(input);
             }
         }
 
@@ -78,6 +80,8 @@ namespace Hajloo.FOSS.UnicodeConverter.Windows.UI.Forms.Modules
                 txtDecimalCode.Text = Functions.GetDecimal(input).ToString();
                 lblType.Content = Functions.GetType(input);
                 lblCategory.Content = Functions.GetCategory(input);
+                lblIsBidirectional.Content = Functions.GetBiDI(input);
+                lblUnicodePage.Content = Functions.GetUnicodePage(input);
             }
         }
 
@@ -92,6 +96,8 @@ namespace Hajloo.FOSS.UnicodeConverter.Windows.UI.Forms.Modules
                 lblType.Content = Functions.GetType(input);
                 lblCategory.Content = Functions.GetCategory(input);
                 txtUnicodeCode.Text = Functions.GetHexCode(input);
+                lblIsBidirectional.Content = Functions.GetBiDI(input);
+                lblUnicodePage.Content = Functions.GetUnicodePage(input);
             }
         }
     }
