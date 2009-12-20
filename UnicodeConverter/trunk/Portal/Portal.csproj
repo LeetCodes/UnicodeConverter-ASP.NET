@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30930.28736, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core">
@@ -115,6 +116,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\UnicodeConverter\StandardControl.skin" />
     <None Include="Hajloo.pfx" />
     <Content Include="Master\Portal.Master" />
   </ItemGroup>
@@ -123,6 +125,12 @@
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>CommonResources.designer.cs</LastGenOutput>
     </Content>
+    <Content Include="App_Themes\UnicodeConverter\PagesGlobalStyles\Images\Master\Arrow.png" />
+    <Content Include="App_Themes\UnicodeConverter\PagesGlobalStyles\Images\Master\SideBar.png" />
+    <Content Include="App_Themes\UnicodeConverter\PagesGlobalStyles\Images\Master\watermark.png" />
+    <Content Include="App_Themes\UnicodeConverter\PagesGlobalStyles\MainStyles.css" />
+    <Content Include="App_Themes\UnicodeConverter\StandardControls\Images\Arrow.png" />
+    <Content Include="App_Themes\UnicodeConverter\StandardControls\StandardControlsStyles.css" />
     <Content Include="Modules\About.ascx" />
     <Content Include="Modules\ConvertFromUnicode.ascx" />
     <Content Include="Modules\ConvertToUnicode.ascx" />
