@@ -76,6 +76,42 @@
     <Compile Include="Master\Portal.Master.designer.cs">
       <DependentUpon>Portal.Master</DependentUpon>
     </Compile>
+    <Compile Include="Modules\About.ascx.cs">
+      <DependentUpon>About.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\About.ascx.designer.cs">
+      <DependentUpon>About.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ConvertFromUnicode.ascx.cs">
+      <DependentUpon>ConvertFromUnicode.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ConvertFromUnicode.ascx.designer.cs">
+      <DependentUpon>ConvertFromUnicode.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ConvertToUnicode.ascx.cs">
+      <DependentUpon>ConvertToUnicode.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ConvertToUnicode.ascx.designer.cs">
+      <DependentUpon>ConvertToUnicode.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\HelpAndHowTo.ascx.cs">
+      <DependentUpon>HelpAndHowTo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\HelpAndHowTo.ascx.designer.cs">
+      <DependentUpon>HelpAndHowTo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Standards.ascx.cs">
+      <DependentUpon>Standards.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Standards.ascx.designer.cs">
+      <DependentUpon>Standards.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\UnicodeInformation.ascx.cs">
+      <DependentUpon>UnicodeInformation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\UnicodeInformation.ascx.designer.cs">
+      <DependentUpon>UnicodeInformation.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +123,22 @@
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>CommonResources.designer.cs</LastGenOutput>
     </Content>
+    <Content Include="Modules\About.ascx" />
+    <Content Include="Modules\ConvertFromUnicode.ascx" />
+    <Content Include="Modules\ConvertToUnicode.ascx" />
+    <Content Include="Modules\HelpAndHowTo.ascx" />
+    <Content Include="Modules\Standards.ascx" />
+    <Content Include="Modules\UnicodeInformation.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EnterpriseAppUnit\EnterpriseAppUnit.csproj">
+      <Project>{8ACB8D0A-67A7-48BD-8393-16C461BB6A5B}</Project>
+      <Name>EnterpriseAppUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\Framework.csproj">
+      <Project>{5FD0C58B-DF90-4F96-8ADE-5898755D581D}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
