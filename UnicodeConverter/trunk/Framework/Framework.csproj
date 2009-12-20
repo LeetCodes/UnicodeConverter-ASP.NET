@@ -12,6 +12,8 @@
     <AssemblyName>Hajloo.FOSS.UnicodeConverter.Framework</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Hajloo.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,6 +51,9 @@
     <Compile Include="ModuleBase.cs" />
     <Compile Include="PageBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hajloo.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exceptions\" />
