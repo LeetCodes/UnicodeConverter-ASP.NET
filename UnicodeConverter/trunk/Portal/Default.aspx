@@ -1,16 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Portal._Default" %>
+﻿<%@ Page Title="" EnableEventValidation="false" Language="C#" MasterPageFile="~/Master/Portal.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Hajloo.FOSS.UnicodeConverter.Web.UI.Default" %>
+<asp:Content ID="MetaContent" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<%--<asp:Content ID="DefaultContent" ContentPlaceHolderID="UnicodeConverterContent" runat="server">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
+</asp:Content>--%>
