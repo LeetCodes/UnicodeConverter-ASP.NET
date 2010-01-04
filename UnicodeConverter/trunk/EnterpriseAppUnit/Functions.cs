@@ -28,8 +28,6 @@ namespace Hajloo.FOSS.UnicodeConverter.EnterpriseAppUnit
         public static char ConvertDecimalToChar(Int64 decimalValue)
         {
             return ((char)int.Parse(decimalValue.ToString(), NumberStyles.Integer));
-            char unknown = new char();
-            return unknown;
         }
 
         /// <summary>
