@@ -2,7 +2,10 @@
 <asp:LinkButton SkinID="SideLink" runat="server" CssClass="SideLink" />
 <%-- Label --%>
 <asp:Label SkinID="Title" runat="server" CssClass="Title" />
+<asp:Label SkinID="Simple" runat="server" CssClass="SimpleLabel" />
+<asp:Label SkinID="Bold" runat="server" CssClass="BoldLabel" />
 <%-- TextBox --%>
+<asp:TextBox SkinID="InformationalInput" runat="server" CssClass="InformationalInput" />
 <asp:TextBox SkinID="Input" runat="server" CssClass="Input" />
 <asp:TextBox SkinID="Result" runat="server" CssClass="Result" />
 <asp:TextBox SkinID="UnicodeInformationResult" runat="server" CssClass="UnicodeInformationResult" />

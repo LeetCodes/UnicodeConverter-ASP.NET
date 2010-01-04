@@ -67,48 +67,56 @@
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master\Portal.Master.cs">
       <DependentUpon>Portal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Master\Portal.Master.designer.cs">
       <DependentUpon>Portal.Master</DependentUpon>
     </Compile>
     <Compile Include="Modules\About.ascx.cs">
       <DependentUpon>About.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Modules\About.ascx.designer.cs">
       <DependentUpon>About.ascx</DependentUpon>
     </Compile>
     <Compile Include="Modules\ConvertFromUnicode.ascx.cs">
       <DependentUpon>ConvertFromUnicode.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Modules\ConvertFromUnicode.ascx.designer.cs">
       <DependentUpon>ConvertFromUnicode.ascx</DependentUpon>
     </Compile>
     <Compile Include="Modules\ConvertToUnicode.ascx.cs">
       <DependentUpon>ConvertToUnicode.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Modules\ConvertToUnicode.ascx.designer.cs">
       <DependentUpon>ConvertToUnicode.ascx</DependentUpon>
     </Compile>
     <Compile Include="Modules\HelpAndHowTo.ascx.cs">
       <DependentUpon>HelpAndHowTo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Modules\HelpAndHowTo.ascx.designer.cs">
       <DependentUpon>HelpAndHowTo.ascx</DependentUpon>
     </Compile>
     <Compile Include="Modules\Standards.ascx.cs">
       <DependentUpon>Standards.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Modules\Standards.ascx.designer.cs">
       <DependentUpon>Standards.ascx</DependentUpon>
     </Compile>
     <Compile Include="Modules\UnicodeInformation.ascx.cs">
       <DependentUpon>UnicodeInformation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Modules\UnicodeInformation.ascx.designer.cs">
       <DependentUpon>UnicodeInformation.ascx</DependentUpon>

@@ -43,10 +43,26 @@
     font-weight: bolder;
     color: #2b99ee;
 }
+.SimpleLabel
+{
+    font-size: medium;
+    color: Black;
+}
+.BoldLabel
+{
+    font-size: medium;
+    font-weight: bold;
+    color: Black;
+}
 /* TextBox */
 .Input
 {
     width: 76%;
+}
+.InformationalInput
+{
+    width: 95%;
+    margin: 0px 5px;
 }
 .Result
 {
@@ -56,7 +72,7 @@
 .UnicodeInformationResult
 {
     width: 100%;
-    height: 50px;
+    height: 90px;
     margin: 3px 0px;
 }
 /* Button */

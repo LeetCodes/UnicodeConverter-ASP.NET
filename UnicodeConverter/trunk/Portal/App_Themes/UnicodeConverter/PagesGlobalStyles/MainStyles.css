@@ -73,7 +73,7 @@ h1
 {
     height: 90px;
 }
-#ConvertToUnicodeContent, #ConvertFromUnicodeContent, #StandardsContent, #UnicodeInformationContent
+#ConvertToUnicodeContent, #ConvertFromUnicodeContent, #StandardsContent, #UnicodeInformationContent, #AboutContent
 {
     text-align: justify;
     padding: 0px 20px;
@@ -89,6 +89,51 @@ h1
     background-color: #E3EDFA;
     width: 100%;
     height: 380px;
+}
+.AboutLabelContainer
+{
+    display: inline-block;
+    width: 40%;
+    margin: 0px 5px;
+    white-space: nowrap;
+    text-align: right;
+    text-align: end;
+}
+.FirstColLabelContainer
+{
+    display: inline-block;
+    width: 12%;
+    margin: 0px 5px;
+    white-space: nowrap;
+    text-align: right;
+    text-align: end;
+}
+.SecondColLabelContainer
+{
+    display: inline-block;
+    width: 12%;
+    margin: 0px 5px;
+    white-space: nowrap;
+    text-align: right;
+    text-align: end;
+}
+.AboutControlContainer
+{
+    display: inline-block;
+    width: 40%;
+    margin: 0px 5px;
+}
+.FirstColControlContainer
+{
+    display: inline-block;
+    width: 14%;
+    white-space: nowrap;
+}
+.SecondColControlContainer
+{
+    display: inline-block;
+    width: 54%;
+    white-space: nowrap;
 }
 #ConvertToUnicodeInputSection, #ConvertFromUnicodeInputSection
 {
@@ -145,4 +190,10 @@ h1
 {
     display: block;
     height: 30px;
+}
+.UnicodeInformationRow, .AboutRow
+{
+    height: 30px;
+    vertical-align: middle;
+    margin: 0px 10px;
 }
