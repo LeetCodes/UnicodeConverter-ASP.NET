@@ -50,6 +50,15 @@ namespace Hajloo.FOSS.UnicodeConverter.Web.UI.Modules {
         protected global::System.Web.UI.WebControls.Panel pnlConvertToUnicode;
         
         /// <summary>
+        /// upResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel upResult;
+        
+        /// <summary>
         /// lblWords control.
         /// </summary>
         /// <remarks>
@@ -75,15 +84,6 @@ namespace Hajloo.FOSS.UnicodeConverter.Web.UI.Modules {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnConvert;
-        
-        /// <summary>
-        /// upResult control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel upResult;
         
         /// <summary>
         /// txtResult control.

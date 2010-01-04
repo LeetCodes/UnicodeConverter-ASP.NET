@@ -13,7 +13,8 @@ namespace Hajloo.FOSS.UnicodeConverter.Web.UI.Modules
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Initialization();
+            if(!IsPostBack)
+                Initialization();
         }
 
         private void Initialization()
@@ -24,7 +25,7 @@ namespace Hajloo.FOSS.UnicodeConverter.Web.UI.Modules
 
         protected void lstCountries_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string country = lstCountries.SelectedValue.ToString();
+            string country = lstCountries.SelectedValue;
             lblCountry.Text = country;
             lblKeyboardLayout.Text = Functions.GetKeyboardLayout(country);
             lblLicense.Text = Functions.GetLicense(country);
@@ -34,7 +35,6 @@ namespace Hajloo.FOSS.UnicodeConverter.Web.UI.Modules
             lblProducer.Text = Functions.GetProducer(country);
             lblReferer.Text = Functions.GetReferer(country);
             lblRefererMail.Text = Functions.GetRefererMail(country);
-            upResults.Update();
         }
     }
 }

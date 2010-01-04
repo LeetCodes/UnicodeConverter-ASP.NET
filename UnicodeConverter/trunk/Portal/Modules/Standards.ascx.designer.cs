@@ -23,6 +23,15 @@ namespace Hajloo.FOSS.UnicodeConverter.Web.UI.Modules {
         protected global::System.Web.UI.WebControls.Label lblTitle;
         
         /// <summary>
+        /// upResults control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel upResults;
+        
+        /// <summary>
         /// StandardsListTopTitle control.
         /// </summary>
         /// <remarks>
@@ -120,15 +129,6 @@ namespace Hajloo.FOSS.UnicodeConverter.Web.UI.Modules {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblStandardsList_RefererMail;
-        
-        /// <summary>
-        /// upResults control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel upResults;
         
         /// <summary>
         /// lblCountry control.

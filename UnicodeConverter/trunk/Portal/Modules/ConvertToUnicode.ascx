@@ -14,13 +14,13 @@
         <br />
         <ajax:RoundedCornersExtender ID="rceConvertToUnicode" TargetControlID="pnlConvertToUnicode" Corners="All" Radius="10" runat="server" />
         <asp:Panel ID="pnlConvertToUnicode" runat="server" CssClass="ConvertToUnicodePanel" DefaultButton="btnConvert">
-            <div id="ConvertToUnicodeInputSection">
-                <asp:Label ID="lblWords" runat="server" Text="<%$ Resources: CommonResources, ConvertToUnicodeWords %>" />
-                <asp:TextBox ID="txtInput" runat="server" SkinID="Input" />
-                <asp:Button ID="btnConvert" runat="server" SkinID="Button" Text="<%$ Resources: CommonResources, ConvertToUnicodeConvert %>" OnClick="btnConvert_Click" />
-            </div>
             <asp:UpdatePanel ID="upResult" runat="server" UpdateMode="Conditional">
                 <ContentTemplate>
+                    <div id="ConvertToUnicodeInputSection">
+                        <asp:Label ID="lblWords" runat="server" Text="<%$ Resources: CommonResources, ConvertToUnicodeWords %>" />
+                        <asp:TextBox ID="txtInput" runat="server" SkinID="Input" />
+                        <asp:Button ID="btnConvert" runat="server" SkinID="Button" Text="<%$ Resources: CommonResources, ConvertToUnicodeConvert %>" OnClick="btnConvert_Click" />
+                    </div>
                     <div id="ConvertToUnicodeResultSection">
                         <asp:TextBox ID="txtResult" runat="server" SkinID="Result" TextMode="MultiLine" />
                     </div>
