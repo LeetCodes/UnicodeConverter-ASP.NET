@@ -120,6 +120,39 @@
   <data name="About" xml:space="preserve">
     <value>About</value>
   </data>
+  <data name="AboutBlogLabel" xml:space="preserve">
+    <value>Blog :</value>
+  </data>
+  <data name="AboutDescription" xml:space="preserve">
+    <value>Unicode Converter is a free open source software for converting to/from unicode and also getting information about a character.</value>
+  </data>
+  <data name="AboutDevelopersLabel" xml:space="preserve">
+    <value>Developers and Designers :</value>
+  </data>
+  <data name="AbouteMailLabel" xml:space="preserve">
+    <value>e-Mail :</value>
+  </data>
+  <data name="AboutLastVersionLabel" xml:space="preserve">
+    <value>Last Version Date :</value>
+  </data>
+  <data name="AboutProjectHostLabel" xml:space="preserve">
+    <value>Project Host :</value>
+  </data>
+  <data name="AboutProjectLicenseLabel" xml:space="preserve">
+    <value>Project License :</value>
+  </data>
+  <data name="AboutProjectManagerLabel" xml:space="preserve">
+    <value>Project Manager :</value>
+  </data>
+  <data name="AboutProjectURL" xml:space="preserve">
+    <value>Project URL :</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>About Unicode Converter</value>
+  </data>
+  <data name="AboutVersionLabel" xml:space="preserve">
+    <value>Version :</value>
+  </data>
   <data name="ApplicationDirection" xml:space="preserve">
     <value>LTR</value>
   </data>
@@ -195,7 +228,49 @@
   <data name="UnicodeInformation" xml:space="preserve">
     <value>Unicode Information</value>
   </data>
+  <data name="UnicodeInformationAddToWordButton" xml:space="preserve">
+    <value>Add To Word</value>
+  </data>
+  <data name="UnicodeInformationCategoryLabel" xml:space="preserve">
+    <value>Category :</value>
+  </data>
+  <data name="UnicodeInformationCharLabel" xml:space="preserve">
+    <value>Char :</value>
+  </data>
+  <data name="UnicodeInformationDecimalLabel" xml:space="preserve">
+    <value>Decimal :</value>
+  </data>
+  <data name="UnicodeInformationGetDecimalInfoButton" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="UnicodeInformationGetHexCodeInfoButton" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="UnicodeInformationHexCodeLabel" xml:space="preserve">
+    <value>Hex Code :</value>
+  </data>
+  <data name="UnicodeInformationInformationButton" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="UnicodeInformationIsBidiLabel" xml:space="preserve">
+    <value>Is BIDI ?</value>
+  </data>
+  <data name="UnicodeInformationNameLabel" xml:space="preserve">
+    <value>Name :</value>
+  </data>
+  <data name="UnicodeInformationRangeLabel" xml:space="preserve">
+    <value>Range :</value>
+  </data>
+  <data name="UnicodeInformationResultsLabel" xml:space="preserve">
+    <value>Unicode Hex Code and Final Text</value>
+  </data>
+  <data name="UnicodeInformationShapeLabel" xml:space="preserve">
+    <value>Shape :</value>
+  </data>
   <data name="UnicodeInformationTitle" xml:space="preserve">
     <value>Unicode Information</value>
+  </data>
+  <data name="UnicodeInformationTypeLabel" xml:space="preserve">
+    <value>Type :</value>
   </data>
 </root>
