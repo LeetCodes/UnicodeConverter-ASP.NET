@@ -13,6 +13,7 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Hajloo.pfx</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -139,6 +140,7 @@
     <Content Include="App_Themes\UnicodeConverter\PagesGlobalStyles\MainStyles.css" />
     <Content Include="App_Themes\UnicodeConverter\StandardControls\Images\Arrow.png" />
     <Content Include="App_Themes\UnicodeConverter\StandardControls\StandardControlsStyles.css" />
+    <Content Include="Icon.ico" />
     <Content Include="Modules\About.ascx" />
     <Content Include="Modules\ConvertFromUnicode.ascx" />
     <Content Include="Modules\ConvertToUnicode.ascx" />
