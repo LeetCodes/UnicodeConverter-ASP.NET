@@ -11,7 +11,7 @@
         <TextBox Height="23" Margin="88,154,99,0" Name="txtInput" VerticalAlignment="Top" Panel.ZIndex="1" Grid.Row="1" />
         <Button Height="23" HorizontalAlignment="Right" Margin="0,153,18,0" Name="btnConvert" VerticalAlignment="Top" Width="75" Panel.ZIndex="1" Grid.Row="1" Click="btnConvert_Click">Convert</Button>
         <Rectangle Grid.Row="1" Margin="14,139,10,25" Name="group" Stroke="#FFDFE8EF" ClipToBounds="False" Fill="#FFDFE8EF" RadiusX="10" RadiusY="10" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeDashCap="Round" />
-        <TextBox Grid.Row="1" Margin="22,183,18,33" Name="txtResult" />
+        <TextBox Grid.Row="1" Margin="22,183,18,33" Name="txtResult" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" TextWrapping="Wrap" />
         <Label Grid.Row="1" Margin="33,149,348,194" Name="lblWords">Words :</Label>
         <TextBlock Grid.Row="1" Margin="12,8,10,0" Name="blkDescription" Height="120" VerticalAlignment="Top" TextWrapping="WrapWithOverflow" TextAlignment="Justify">
             To convert a character, word, Scentense or a paragraph enter put your text within the Words box and then press Convert Button. the Unicode per character code, will display in the result box.

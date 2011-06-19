@@ -11,7 +11,7 @@
         <TextBox Height="23" Margin="88,154,99,0" Name="txtInput" VerticalAlignment="Top" Panel.ZIndex="1" Grid.Row="1" />
         <Button Height="23" HorizontalAlignment="Right" Margin="0,153,18,0" Name="btnDecode" VerticalAlignment="Top" Width="75" Panel.ZIndex="1" Grid.Row="1" Click="btnDecode_Click">Decode</Button>
         <Rectangle Grid.Row="1" Margin="14,139,10,25" Name="group" Stroke="#FFDFE8EF" ClipToBounds="False" Fill="#FFDFE8EF" RadiusX="10" RadiusY="10" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeDashCap="Round" />
-        <TextBox Grid.Row="1" Margin="22,183,18,33" Name="txtResult" FontFamily="Arial Unicode MS" />
+        <TextBox Grid.Row="1" Margin="22,183,18,33" Name="txtResult" FontFamily="Arial Unicode MS" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" />
         <Label Grid.Row="1" Margin="22,149,0,0" Name="lblWords" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="70">Hex Code :</Label>
         <TextBlock Grid.Row="1" Margin="12,8,10,0" Name="blkDescription" Height="120" VerticalAlignment="Top" TextWrapping="WrapWithOverflow" TextAlignment="Justify">
             To decode a byte or a bytecode stream back to Original unicode scheme, put the code or bytecode into the Bytes box and then press the Decode button.
